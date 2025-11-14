@@ -3,7 +3,7 @@
 ## 1. Criando Elementos com JavaScript
 
 ### Exercício 1 — Criar elementos e inserir na página
-
+<!-- 
 ```js
 const conteudo = document.getElementById("conteudo");
 
@@ -20,7 +20,7 @@ botao.addEventListener("click", function () {
   novo.innerText = "Parágrafo criado ao clicar.";
   conteudo.appendChild(novo);
 });
-````
+```` -->
 
 ---
 
@@ -28,7 +28,7 @@ botao.addEventListener("click", function () {
 
 ### Exercício 2 — Alterar estilo usando .style
 
-```js
+<!-- ```js
 const botaoFonte = document.createElement("button");
 botaoFonte.innerText = "Aumentar Fonte";
 conteudo.appendChild(botaoFonte);
@@ -37,7 +37,7 @@ botaoFonte.addEventListener("click", function () {
   p.style.fontSize = "24px";
   p.style.color = "blue";
 });
-```
+``` -->
 
 ---
 
@@ -45,7 +45,7 @@ botaoFonte.addEventListener("click", function () {
 
 ### Exercício 3 — Criar imagem e trocar o atributo src
 
-```js
+<!-- ```js
 const img = document.createElement("img");
 img.setAttribute("src", "https://via.placeholder.com/200");
 img.setAttribute("alt", "Imagem inicial");
@@ -58,7 +58,7 @@ conteudo.appendChild(trocarImg);
 trocarImg.addEventListener("click", function () {
   img.setAttribute("src", "https://via.placeholder.com/300x200");
 });
-```
+``` -->
 
 ---
 
@@ -66,7 +66,7 @@ trocarImg.addEventListener("click", function () {
 
 ### Exercício 4 — Mostrar o texto digitado no mesmo momento
 
-```js
+<!-- ```js
 const input = document.createElement("input");
 input.setAttribute("placeholder", "Digite algo...");
 conteudo.appendChild(input);
@@ -78,7 +78,7 @@ conteudo.appendChild(exibicao);
 input.addEventListener("input", function () {
   exibicao.innerText = input.value;
 });
-```
+``` -->
 
 ---
 
@@ -86,7 +86,7 @@ input.addEventListener("input", function () {
 
 ### Exercício 5 — Mudar a cor do header ao descer a página
 
-```js
+<!-- ```js
 const header = document.getElementById("topo");
 
 window.addEventListener("scroll", function () {
@@ -96,7 +96,7 @@ window.addEventListener("scroll", function () {
     header.style.background = "#333";
   }
 });
-```
+``` -->
 
 ---
 
