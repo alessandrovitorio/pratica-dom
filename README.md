@@ -1,4 +1,3 @@
-````md
 # Prática de DOM — Criação, Estilo, Atributos e Eventos
 
 ## 1. Criando Elementos com JavaScript
